@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Mobilism DArk (3-in-1)
-@version      1.0.0
-@description  Dark theme for All 3 original style of Mobilism.
+@version      1.0.1
+@description  Dark theme for All 3 original styles of Mobilism.
 @namespace    https://github.com/moosedookie
 @author       pgain2004, moosedookie
 @license      CC-BY-SA-4.0
@@ -36,7 +36,7 @@
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
 
-@-moz-document domain("mobilism.org") {
+@-moz-document domain("mobilism.org"), domain("mobilism.me") {
     /*Modern*/
     /*[[Modern]]*/
     * {
@@ -777,7 +777,7 @@
 }
 
 /*[[Modern]]*/
-@-moz-document regexp("^[^\.]*\.mobilism\.org/viewtopic\.php.*") {
+@-moz-document regexp("^[^\.]*\.mobilism\.org/viewtopic\.php.*"), regexp("^[^\\.]*\\.mobilism\\.me/viewtopic\\.php.*") {
     .mobil-odd {
         border-radius: 4px;
         background: #1e1e1e;
@@ -790,7 +790,7 @@
 /**/
 
 /*[[Classic]]*/
-@-moz-document regexp("^[^\.]*\.mobilism\.org/viewtopic\.php.*") {
+@-moz-document regexp("^[^\.]*\.mobilism\.org/viewtopic\.php.*"), regexp("^[^\\.]*\\.mobilism\\.me/viewtopic\\.php.*") {
     .tablebg {
         margin: 10px 0;
     }
@@ -798,7 +798,7 @@
 /**/
 
 /*[[Mobile]]*/
-@-moz-document regexp("^[^\.]*\.mobilism\.org/portal\.php.*") {
+@-moz-document regexp("^[^\.]*\.mobilism\.org/portal\.php.*"), regexp("^[^\\.]*\\.mobilism\\.me/portal\\.php.*") {
     .spacer {
         background: none !important;
     }
