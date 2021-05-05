@@ -206,7 +206,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--white-font);
 		background-color: var(--main-color-dark);
 	}
-	.ui-dropdownchecklist-text, div.ui-dropdownchecklist-item.ui-state-default  {
+	.ui-dropdownchecklist-text, div.ui-dropdownchecklist-item.ui-state-default {
 		color: var(--white-font);
 		background-color: var(--main-color-dark);
 	}

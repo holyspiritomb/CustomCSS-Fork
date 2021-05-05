@@ -29,7 +29,7 @@
 		height: 100%;
 	}
 
-	BODY>HEADER {
+	BODY > HEADER {
 		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		-ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
@@ -39,15 +39,15 @@
 		margin-bottom: 2em;
 	}
 
-	BODY>HEADER .site-title {
+	BODY > HEADER .site-title {
 		color: #038FC7;
 		font-size: 1.7em;
 		font-weight: bold;
 		line-height: 2.5em;
 	}
 
-	BODY>FOOTER,
-	.page-content>footer {
+	BODY > FOOTER,
+	.page-content > footer {
 		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		-ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
@@ -61,8 +61,8 @@
 		color: #038FC7;
 	}
 
-	.menu>LI>A:hover,
-	.menu>LI>A:focus {
+	.menu > LI > A:hover,
+	.menu > LI > A:focus {
 		background: #038FC7;
 		box-shadow: inset 0px 5px rgba(0, 0, 0, 0.25);
 		color: #FFF;
@@ -78,8 +78,8 @@
 		background-color: #181414;
 	}
 
-	ul.divided>li,
-	ol.divided>li {
+	ul.divided > li,
+	ol.divided > li {
 		border-top: 1px solid #049CDB;
 		border-bottom: 1px solid #049CDB;
 	}
@@ -195,12 +195,12 @@
 		padding: 2px;
 	}
 
-	ARTICLE.post>TABLE,
-	ARTICLE.post>.entry-content>TABLE,
-	ARTICLE.page>TABLE,
-	ARTICLE.page>.entry-content>TABLE,
-	ARTICLE.listing>TABLE,
-	ARTICLE.listing>.entry-content>TABLE,
+	ARTICLE.post > TABLE,
+	ARTICLE.post > .entry-content > TABLE,
+	ARTICLE.page > TABLE,
+	ARTICLE.page > .entry-content > TABLE,
+	ARTICLE.listing > TABLE,
+	ARTICLE.listing > .entry-content > TABLE,
 	table td {
 		background-color: #272424;
 	}

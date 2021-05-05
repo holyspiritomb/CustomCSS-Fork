@@ -1,0 +1,1 @@
+# Theme for Checker Plus Chrome plugin
