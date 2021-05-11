@@ -1,0 +1,140 @@
+/* ==UserStyle==
+@name         W3Schools Dark
+@version      1.0.0
+@description  W3Schools Dark Theme
+@namespace    https://github.com/moosedookie
+@author       moosedookie
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/moosedookie/CustomCSS/tree/master/W3Schools
+@supportURL   https://github.com/moosedookie/CustomCSS/issues
+@updateURL    https://moosedookie.github.io/CustomCSS/W3Schools/w3schools.user.css
+@preprocessor uso
+==/UserStyle== */
+/*       __  ___                          */
+/*      /  |/  /___  ____  ________       */
+/*     / /|_/ / __ \/ __ \/ ___/ _ \      */
+/*    / /  / / /_/ / /_/ (__  )  __/      */
+/*   /_/  /_/\____/\____/____/\___/  _    */
+/*           / __ \____  ____  / /__(_)__ */
+/*          / / / / __ \/ __ \/ //_/ / _ \*/
+/*         / /_/ / /_/ / /_/ / ,< / /  __/*/
+/*        /_____/\____/\____/_/|_/_/\___/ */
+@-moz-document domain("w3schools.com") {
+	body,
+	#page,
+	.left,
+	#leftcolumn a,
+	#topnav,
+	#topnavTut,
+	.lamp td,
+	.boxDemo,
+	.example,
+	.w3-white,
+	#menu a {
+		background: #222 !important;
+	}
+	div {
+		background-color: #222 !important;
+	}
+	#page,
+	.image {
+		box-shadow: none !important;
+	}
+	div {
+		border: none !important;
+	}
+	.btn {
+		color: #FFF !important;
+		border: 1px #FFF solid !important;
+		background: #333 !important;
+	}
+	.example_code {
+		color: #FFF !important;
+		background: #222 !important;
+		border-left: 3px solid #8AC007 !important;
+	}
+	div.code,
+	div.code div {
+		color: #FFF !important;
+		background: #333 !important;
+	}
+	div#div1,
+	div#div2 {
+		border: 1px solid gray !important;
+	}
+	.example {
+		color: #FFF !important;
+		background: #333 !important;
+	}
+	tr {
+		background: #222 !important;
+	}
+	tr:nth-child(even) {
+		background: #333 !important;
+	}
+	th {
+		color: #000 !important;
+		background: #AAA !important;
+	}
+	td {
+		color: #AAA !important;
+		border: 1px #555 solid !important;
+	}
+	table.lamp tr td {
+		border-style: none !important;
+		padding-left: 1ex !important;
+	}
+	table.lamp tr th {
+		background: #FFF !important;
+	}
+	table {
+		color: #FFF !important;
+		border: 1px #555 solid !important;
+		background: #222 !important;
+	}
+	body,
+	p,
+	ol,
+	ul,
+	.headerText {
+		color: #AAA !important;
+	}
+	a,
+	b,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.bottom,
+	strong li {
+		color: #FFF !important;
+	}
+	span.color_h1,
+	a.chapter,
+	h2.left,
+	.left_h2 {
+		color: #8AC007 !important;
+	}
+	a:hover {
+		text-decoration: underline !important;
+	}
+	#topnav,
+	#topnavTut,
+	div.menu {
+		background-color: #333 !important;
+	}
+	.tryitbtn {
+		background-color: #8AC007 !important;
+	}
+	hr {
+		background-color: #555 !important;
+	}
+	.highVAL {
+		color: lightblue !important;
+	}
+	.highELE {
+		color: lightcoral !important;
+	}
+}
