@@ -17,39 +17,43 @@ This repo has various dark themes for multiple websites. They are built using [U
 
 **Dark Scrollbar for Chrome**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/dark-10-scrollbar/Dark-10-Scrollbar.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/dark-10-scrollbar/Dark-10-Scrollbar.user.css)
 
 **Dark Stylus Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/dark-stylus-ui/dark-stylus-ui.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/dark-stylus-ui/dark-stylus-ui.user.css)
 
 **Dark Deluge Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/deluge-dark/deluge.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/deluge-dark/deluge.user.css)
+
+**Docker Hub Dark Theme**
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/docker-hub/docker-hub.user.css)
 
 **Github Custom Icon Color**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/github-icon-color/github-icon-color.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/github-icon-color/github-icon-color.user.css)
 
 **Dark Goodreads Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/goodreads/goodreads.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/goodreads/goodreads.user.css)
 
 **Dark Home Assistant website/forum Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/home-assistant.io/home-assistant.io.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/home-assistant.io/home-assistant.io.user.css)
 
 **Dark Mobilism Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/mobilism/mobilism.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/mobilism/mobilism.user.css)
 
 **Dark unRaid Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/unRAID/unraid.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/unRAID/unraid.user.css)
 
 **Dark W3Schools Theme**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20with-Stylus-blueviolet)](https://moosedookie.github.io/CustomCSS/W3Schools/w3schools.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/W3Schools/w3schools.user.css)
 
 # How to use
 
