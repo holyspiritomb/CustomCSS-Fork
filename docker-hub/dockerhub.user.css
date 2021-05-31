@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Docker Hub Dark Theme
-@version      1.0.1
+@version      1.0.2
 @description  Change Docker Hub and Docker Cloud to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -174,6 +174,9 @@
 	.dMarkdown h2 {
 		border-color: #fcfcfc;
 	}
+	.dMarkdown table {
+    filter: invert(1);
+}
 	.styles__name___2198b {
 		color: #eee;
 	}
