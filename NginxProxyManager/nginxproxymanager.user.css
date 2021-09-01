@@ -21,161 +21,239 @@
 /*        /_____/\____/\____/_/|_/_/\___/ */
 @-moz-document url-prefix("http://192.168.33.134:7818/") {
 	@media (prefers-color-scheme: dark) {
-		body, .my-3.my-md-5 {
-			background-color: #111721;
-			color: #b3b3b3 !important;
+		:root {
+			--textColor: #b3b3b3;
+			--backColor: #111721;
+			--backColor2: #1a2332;
+			--linkNormal: #1cb09a;
+			--linkHover: #199a87;
+			--danger: #5e0202;
+			--saveButton: #036003;
 		}
+
+		body,
+		.my-3.my-md-5 {
+			background-color: var(--backColor);
+			color: var(--textColor) !important;
+		}
+
 		.text-default {
-			color: #b3b3b3 !important;
+			color: var(--textColor) !important;
 		}
-		.app-content, .card, .header, .footer {
-			background-color: #1a2332;
+
+		.app-content,
+		.card,
+		.header,
+		.footer {
+			background-color: var(--backColor2);
 		}
+
 		td {
-			color: #b3b3b3;
+			color: var(--textColor);
 		}
+
 		.tag {
-			background-color: #111721;
-			color: #b3b3b3;
+			background-color: var(--backColor);
+			color: var(--textColor);
 		}
+
 		.dropdown-menu {
-			background-color: #111721;
+			background-color: var(--backColor);
 		}
+
 		.dropdown-item {
-			color: #b3b3b3;
+			color: var(--textColor);
 		}
+
 		.nav-item.show .nav-link {
-			background-color: #111721 !important;
-			color: #b3b3b3 !important;
+			background-color: var(--backColor) !important;
+			color: var(--textColor) !important;
 		}
+
 		.dropdown-item:hover {
-			background-color: #1a2332;
-			color: #b3b3b3;
+			background-color: var(--backColor2);
+			color: var(--textColor);
 		}
+
 		.btn-secondary {
-			background-color: #1cb09a;
+			background-color: var(--linkNormal);
 			color: #fff;
 		}
 		.btn-secondary:hover {
-			background-color: #199a87;
+			background-color: var(--linkHover);
 			color: #fff;
 		}
+
 		.modal-content {
-			background-color: #1a2332;
+			background-color: var(--backColor2);
 		}
-		.selectize-input, .form-control, .custom-file-label {
-			background-color: #111721 !important;
-			color: #b3b3b3 !important;
+
+		.selectize-input,
+		.form-control,
+		.custom-file-label {
+			background-color: var(--backColor) !important;
+			color: var(--textColor) !important;
 		}
+
 		.selectize-control.multi .selectize-input > div {
-			background-color: #199a87 !important;
+			background-color: var(--linkHover) !important;
 			color: #fff !important;
 		}
+
 		.selectize-control.single .selectize-input:after {
 			background: none;
 		}
-		span, li, .form-label, p, .modal-title, small {
-			color: #b3b3b3 !important;
+
+		span,
+		li,
+		.form-label,
+		p,
+		.modal-title,
+		small {
+			color: var(--textColor) !important;
 		}
-		.btn.cancel, .btn.cancel:active {
-			background-color: #5e0202 !important;
-			color: #b3b3b3 !important;
+
+		.btn.cancel,
+		.btn.cancel:active {
+			background-color: var(--danger) !important;
+			color: var(--textColor) !important;
 		}
-		.btn.save, .btn.save:active {
-			background-color: #036003 !important;
-			color: #b3b3b3 !important;
+
+		.btn.save,
+		.btn.save:active {
+			background-color: var(--saveButton) !important;
+			color: var(--textColor) !important;
 			border: none;
 		}
+
 		.selectize-dropdown-content .selected {
 			background-color: #0a0f17;
-			color: #b3b3b3 !important;
+			color: var(--textColor) !important;
 		}
+
 		.selectize-dropdown-content .active {
-			background-color: #1a2332;
-			color: #b3b3b3 !important;
+			background-color: var(--backColor2);
+			color: var(--textColor) !important;
 		}
-		.nav-tabs, .modal-header {
-			border-bottom: 1px solid #111721;
+
+		.nav-tabs,
+		.modal-header {
+			border-bottom: 1px solid var(--backColor);
 		}
+
 		.modal-footer {
-			border-top: 1px solid #111721;
+			border-top: 1px solid var(--backColor);
 		}
-		.table th, .text-wrap table th, .table td, .text-wrap table td {
-			border-top: 1px solid #111721;
+
+		.table th,
+		.text-wrap table th,
+		.table td,
+		.text-wrap table td {
+			border-top: 1px solid var(--backColor);
 		}
-		.table thead th, .text-wrap table thead th {
-			border-bottom: 1px solid #111721;
+
+		.table thead th,
+		.text-wrap table thead th {
+			border-bottom: 1px solid var(--backColor);
 		}
+
 		.dropdown-divider {
-			border-top: 1px solid #1a2332;
+			border-top: 1px solid var(--backColor2);
 		}
+
 		.btn-outline-secondary:hover i {
 			color: black;
 		}
+
 		.btn-outline-success:hover {
 			color: white !important;
 		}
+
 		.dns-challenge {
-			background-color: #111721;
+			background-color: var(--backColor);
 			border: none;
 		}
+
 		.dns-challenge .form-control {
-			background-color: #1a2332 !important;
+			background-color: var(--backColor2) !important;
 		}
+
 		.custom-file-label:after {
-			background-color: #1a2332 !important;
-			color: #b3b3b3 !important;
+			background-color: var(--backColor2) !important;
+			color: var(--textColor) !important;
 		}
-		.stamp i, .tag-addon {
+
+		.stamp i,
+		.tag-addon {
 			color: black !important;
 		}
-		.tag.hover-green:hover, .tag.hover-green:active, .tag.hover-green:focus, .hover-pink:hover {
+
+		.tag.hover-green:hover,
+		.tag.hover-green:active,
+		.tag.hover-green:focus,
+		.hover-pink:hover {
 			color: white !important;
 		}
+
 		pre {
-			background-color: #111721 !important;
+			background-color: var(--backColor) !important;
 			text-shadow: none;
-			color: #b3b3b3 !important;
+			color: var(--textColor) !important;
 		}
-		.tag.hover-yellow:hover, .tag.hover-yellow:active, .tag.hover-yellow:focus {
+
+		.tag.hover-yellow:hover,
+		.tag.hover-yellow:active,
+		.tag.hover-yellow:focus {
 			color: black !important;
 		}
-		.custom-control-label, .selectize-dropdown, .selectize-input, .selectize-input input {
-			color: #b3b3b3 !important;
+
+		.custom-control-label,
+		.selectize-dropdown,
+		.selectize-input,
+		.selectize-input input {
+			color: var(--textColor) !important;
 		}
+
 		.custom-control-label:before {
-			background-color: #111721;
+			background-color: var(--backColor);
 		}
-		.dropdown-menu-arrow:before, .dropdown-menu-arrow:after {
+
+		.dropdown-menu-arrow:before,
+		.dropdown-menu-arrow:after {
 			display: none !important;
 		}
+
 		.selectgroup-button {
-			background-color: #111721;
+			background-color: var(--backColor);
 		}
+
 		.selectgroup-input:checked + .selectgroup-button {
-			background-color: #199a87;
+			background-color: var(--linkHover);
 			color: white !important;
 		}
+
 		.custom-switch-indicator {
-			background-color: #111721;
+			background-color: var(--backColor);
 		}
+
 		.close:before {
-			color: #b3b3b3;
+			color: var(--textColor);
 		}
+
 		.alert-secondary {
-			background-color: #111721;
+			background-color: var(--backColor);
 			border: none;
-			color: #b3b3b3;
+			color: var(--textColor);
 		}
+
 		.alert-danger {
-			background-color: #5e0202 !important;
-			color: #b3b3b3 !important;
+			background-color: var(--danger) !important;
+			color: var(--textColor) !important;
 			border: none;
 		}
+
 		.input-group-text {
-			background-color: #199a87;
+			background-color: var(--linkHover);
 			color: white !important;
 		}
 	}
-
-}
