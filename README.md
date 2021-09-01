@@ -5,6 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/moosedookie/CustomCSS?color=blueviolet&style=for-the-badge)](https://github.com/moosedookie/CustomCSS/network)
 
 # Custom CSS for Various Sites
+
 This repo has various dark themes for multiple websites. They are built using [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) and support automatic updates.
 
 # Table of Contents
@@ -47,6 +48,10 @@ This repo has various dark themes for multiple websites. They are built using [U
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/mobilism/mobilism.user.css)
 
+**Nginx Proxy Manager Dark Theme**
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/NginxProxyManager/nginxproxymanager.user.css)
+
 **Dark unRaid Theme**
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/unRAID/unraid.user.css)
@@ -78,7 +83,6 @@ Now we need to find a style to install.
 To install a file, open the file within the browser. The file can be hosted *anywhere* on the web, or on your local drive.
 
 For example, to add a [Quora.com](https://www.quora.com/) ![external link](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png) Dark theme, go to [Quora Dark installation instructions](https://github.com/StylishThemes/Quora-Dark#installation) ![external link](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png) (you don't need to be logged in), then click the "Install the usercss" link.
-
 
 You could also open the `.user.css` file directly if you know the url.
 

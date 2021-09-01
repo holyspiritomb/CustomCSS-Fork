@@ -1,0 +1,1 @@
+# Dark theme for Nginx Proxy Manager
