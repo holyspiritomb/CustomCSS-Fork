@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Nginx Proxy Manager
-@version      1.0.0
+@version      1.0.1
 @description  Nginx Proxy Manager Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -20,240 +20,239 @@
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
 @-moz-document url-prefix("http://192.168.33.134:7818/") {
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--textColor: #b3b3b3;
-			--backColor: #111721;
-			--backColor2: #1a2332;
-			--linkNormal: #1cb09a;
-			--linkHover: #199a87;
-			--danger: #5e0202;
-			--saveButton: #036003;
-		}
-
-		body,
-		.my-3.my-md-5 {
-			background-color: var(--backColor);
-			color: var(--textColor) !important;
-		}
-
-		.text-default {
-			color: var(--textColor) !important;
-		}
-
-		.app-content,
-		.card,
-		.header,
-		.footer {
-			background-color: var(--backColor2);
-		}
-
-		td {
-			color: var(--textColor);
-		}
-
-		.tag {
-			background-color: var(--backColor);
-			color: var(--textColor);
-		}
-
-		.dropdown-menu {
-			background-color: var(--backColor);
-		}
-
-		.dropdown-item {
-			color: var(--textColor);
-		}
-
-		.nav-item.show .nav-link {
-			background-color: var(--backColor) !important;
-			color: var(--textColor) !important;
-		}
-
-		.dropdown-item:hover {
-			background-color: var(--backColor2);
-			color: var(--textColor);
-		}
-
-		.btn-secondary {
-			background-color: var(--linkNormal);
-			color: #fff;
-		}
-		.btn-secondary:hover {
-			background-color: var(--linkHover);
-			color: #fff;
-		}
-
-		.modal-content {
-			background-color: var(--backColor2);
-		}
-
-		.selectize-input,
-		.form-control,
-		.custom-file-label {
-			background-color: var(--backColor) !important;
-			color: var(--textColor) !important;
-		}
-
-		.selectize-control.multi .selectize-input > div {
-			background-color: var(--linkHover) !important;
-			color: #fff !important;
-		}
-
-		.selectize-control.single .selectize-input:after {
-			background: none;
-		}
-
-		span,
-		li,
-		.form-label,
-		p,
-		.modal-title,
-		small {
-			color: var(--textColor) !important;
-		}
-
-		.btn.cancel,
-		.btn.cancel:active {
-			background-color: var(--danger) !important;
-			color: var(--textColor) !important;
-		}
-
-		.btn.save,
-		.btn.save:active {
-			background-color: var(--saveButton) !important;
-			color: var(--textColor) !important;
-			border: none;
-		}
-
-		.selectize-dropdown-content .selected {
-			background-color: #0a0f17;
-			color: var(--textColor) !important;
-		}
-
-		.selectize-dropdown-content .active {
-			background-color: var(--backColor2);
-			color: var(--textColor) !important;
-		}
-
-		.nav-tabs,
-		.modal-header {
-			border-bottom: 1px solid var(--backColor);
-		}
-
-		.modal-footer {
-			border-top: 1px solid var(--backColor);
-		}
-
-		.table th,
-		.text-wrap table th,
-		.table td,
-		.text-wrap table td {
-			border-top: 1px solid var(--backColor);
-		}
-
-		.table thead th,
-		.text-wrap table thead th {
-			border-bottom: 1px solid var(--backColor);
-		}
-
-		.dropdown-divider {
-			border-top: 1px solid var(--backColor2);
-		}
-
-		.btn-outline-secondary:hover i {
-			color: black;
-		}
-
-		.btn-outline-success:hover {
-			color: white !important;
-		}
-
-		.dns-challenge {
-			background-color: var(--backColor);
-			border: none;
-		}
-
-		.dns-challenge .form-control {
-			background-color: var(--backColor2) !important;
-		}
-
-		.custom-file-label:after {
-			background-color: var(--backColor2) !important;
-			color: var(--textColor) !important;
-		}
-
-		.stamp i,
-		.tag-addon {
-			color: black !important;
-		}
-
-		.tag.hover-green:hover,
-		.tag.hover-green:active,
-		.tag.hover-green:focus,
-		.hover-pink:hover {
-			color: white !important;
-		}
-
-		pre {
-			background-color: var(--backColor) !important;
-			text-shadow: none;
-			color: var(--textColor) !important;
-		}
-
-		.tag.hover-yellow:hover,
-		.tag.hover-yellow:active,
-		.tag.hover-yellow:focus {
-			color: black !important;
-		}
-
-		.custom-control-label,
-		.selectize-dropdown,
-		.selectize-input,
-		.selectize-input input {
-			color: var(--textColor) !important;
-		}
-
-		.custom-control-label:before {
-			background-color: var(--backColor);
-		}
-
-		.dropdown-menu-arrow:before,
-		.dropdown-menu-arrow:after {
-			display: none !important;
-		}
-
-		.selectgroup-button {
-			background-color: var(--backColor);
-		}
-
-		.selectgroup-input:checked + .selectgroup-button {
-			background-color: var(--linkHover);
-			color: white !important;
-		}
-
-		.custom-switch-indicator {
-			background-color: var(--backColor);
-		}
-
-		.close:before {
-			color: var(--textColor);
-		}
-
-		.alert-secondary {
-			background-color: var(--backColor);
-			border: none;
-			color: var(--textColor);
-		}
-
-		.alert-danger {
-			background-color: var(--danger) !important;
-			color: var(--textColor) !important;
-			border: none;
-		}
-
-		.input-group-text {
-			background-color: var(--linkHover);
-			color: white !important;
-		}
+	:root {
+		--textColor: #b3b3b3;
+		--backColor: #111721;
+		--backColor2: #1a2332;
+		--linkNormal: #1cb09a;
+		--linkHover: #199a87;
+		--danger: #5e0202;
+		--saveButton: #036003;
 	}
+
+	body,
+	.my-3.my-md-5 {
+		background-color: var(--backColor);
+		color: var(--textColor) !important;
+	}
+
+	.text-default {
+		color: var(--textColor) !important;
+	}
+
+	.app-content,
+	.card,
+	.header,
+	.footer {
+		background-color: var(--backColor2);
+	}
+
+	td {
+		color: var(--textColor);
+	}
+
+	.tag {
+		background-color: var(--backColor);
+		color: var(--textColor);
+	}
+
+	.dropdown-menu {
+		background-color: var(--backColor);
+	}
+
+	.dropdown-item {
+		color: var(--textColor);
+	}
+
+	.nav-item.show .nav-link {
+		background-color: var(--backColor) !important;
+		color: var(--textColor) !important;
+	}
+
+	.dropdown-item:hover {
+		background-color: var(--backColor2);
+		color: var(--textColor);
+	}
+
+	.btn-secondary {
+		background-color: var(--linkNormal);
+		color: #fff;
+	}
+	.btn-secondary:hover {
+		background-color: var(--linkHover);
+		color: #fff;
+	}
+
+	.modal-content {
+		background-color: var(--backColor2);
+	}
+
+	.selectize-input,
+	.form-control,
+	.custom-file-label {
+		background-color: var(--backColor) !important;
+		color: var(--textColor) !important;
+	}
+
+	.selectize-control.multi .selectize-input > div {
+		background-color: var(--linkHover) !important;
+		color: #fff !important;
+	}
+
+	.selectize-control.single .selectize-input:after {
+		background: none;
+	}
+
+	span,
+	li,
+	.form-label,
+	p,
+	.modal-title,
+	small {
+		color: var(--textColor) !important;
+	}
+
+	.btn.cancel,
+	.btn.cancel:active {
+		background-color: var(--danger) !important;
+		color: var(--textColor) !important;
+	}
+
+	.btn.save,
+	.btn.save:active {
+		background-color: var(--saveButton) !important;
+		color: var(--textColor) !important;
+		border: none;
+	}
+
+	.selectize-dropdown-content .selected {
+		background-color: #0a0f17;
+		color: var(--textColor) !important;
+	}
+
+	.selectize-dropdown-content .active {
+		background-color: var(--backColor2);
+		color: var(--textColor) !important;
+	}
+
+	.nav-tabs,
+	.modal-header {
+		border-bottom: 1px solid var(--backColor);
+	}
+
+	.modal-footer {
+		border-top: 1px solid var(--backColor);
+	}
+
+	.table th,
+	.text-wrap table th,
+	.table td,
+	.text-wrap table td {
+		border-top: 1px solid var(--backColor);
+	}
+
+	.table thead th,
+	.text-wrap table thead th {
+		border-bottom: 1px solid var(--backColor);
+	}
+
+	.dropdown-divider {
+		border-top: 1px solid var(--backColor2);
+	}
+
+	.btn-outline-secondary:hover i {
+		color: black;
+	}
+
+	.btn-outline-success:hover {
+		color: white !important;
+	}
+
+	.dns-challenge {
+		background-color: var(--backColor);
+		border: none;
+	}
+
+	.dns-challenge .form-control {
+		background-color: var(--backColor2) !important;
+	}
+
+	.custom-file-label:after {
+		background-color: var(--backColor2) !important;
+		color: var(--textColor) !important;
+	}
+
+	.stamp i,
+	.tag-addon {
+		color: black !important;
+	}
+
+	.tag.hover-green:hover,
+	.tag.hover-green:active,
+	.tag.hover-green:focus,
+	.hover-pink:hover {
+		color: white !important;
+	}
+
+	pre {
+		background-color: var(--backColor) !important;
+		text-shadow: none;
+		color: var(--textColor) !important;
+	}
+
+	.tag.hover-yellow:hover,
+	.tag.hover-yellow:active,
+	.tag.hover-yellow:focus {
+		color: black !important;
+	}
+
+	.custom-control-label,
+	.selectize-dropdown,
+	.selectize-input,
+	.selectize-input input {
+		color: var(--textColor) !important;
+	}
+
+	.custom-control-label:before {
+		background-color: var(--backColor);
+	}
+
+	.dropdown-menu-arrow:before,
+	.dropdown-menu-arrow:after {
+		display: none !important;
+	}
+
+	.selectgroup-button {
+		background-color: var(--backColor);
+	}
+
+	.selectgroup-input:checked + .selectgroup-button {
+		background-color: var(--linkHover);
+		color: white !important;
+	}
+
+	.custom-switch-indicator {
+		background-color: var(--backColor);
+	}
+
+	.close:before {
+		color: var(--textColor);
+	}
+
+	.alert-secondary {
+		background-color: var(--backColor);
+		border: none;
+		color: var(--textColor);
+	}
+
+	.alert-danger {
+		background-color: var(--danger) !important;
+		color: var(--textColor) !important;
+		border: none;
+	}
+
+	.input-group-text {
+		background-color: var(--linkHover);
+		color: white !important;
+	}
+}
