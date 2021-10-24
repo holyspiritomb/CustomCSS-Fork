@@ -28,6 +28,10 @@ This repo has various dark themes for multiple websites. They are built using [U
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/deluge-dark/deluge.user.css)
 
+**Dark Tvmaze Theme**
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/tvmaze/tvmaze.user.css)
+
 **Docker Hub Dark Theme**
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/docker-hub/dockerhub.user.css)
