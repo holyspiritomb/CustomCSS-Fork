@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Nginx Proxy Manager
-@version      1.0.1
+@version      1.0.2
 @description  Nginx Proxy Manager Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -45,6 +45,11 @@
 	.header,
 	.footer {
 		background-color: var(--backColor2);
+	}
+
+
+	.navbar-brand {
+		color: var(--linkNormal) !important;
 	}
 
 	td {
