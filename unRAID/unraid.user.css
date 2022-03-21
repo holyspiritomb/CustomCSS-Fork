@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.4.2
+@version      1.4.3
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -20,7 +20,7 @@
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
 @-moz-document domain("moose-server.local"),
-domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
+domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
 	:root {
 		--main-color: #19298f;
 		--highlight-color: #666ad1;
