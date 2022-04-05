@@ -3,12 +3,17 @@
 /* https://github.com/moosedookie/CustomCSS/tree/master/stash */
 /* In your config.yml file update the value of theme_color property to #191919. */
 
+/* Hide the Donate button */
+.btn-primary.btn.donate.minimal {
+	display: none;
+}
+
 :root {
-  --nav-color: #212121;
-  --body-color: #191919;
-  --card-color: #2a2a2a;
-  --plex-yelow: #773cff;
-  --tag-color: #555555;
+	--nav-color: #212121;
+	--body-color: #191919;
+	--card-color: #2a2a2a;
+	--plex-yelow: #773cff;
+	--tag-color: #555555;
 }
 
 body {
@@ -18,7 +23,7 @@ body {
 }
 
 .text-white {
-    color: #cbced2 !important;
+	color: #cbced2 !important;
 }
 
 #root {
@@ -29,7 +34,7 @@ body {
 }
 
 div.react-select__menu, div.dropdown-menu {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 * {
@@ -37,7 +42,7 @@ div.react-select__menu, div.dropdown-menu {
 }
 
 .bg-dark {
-	background-color: var(--nav-color)!important;
+	background-color: var(--nav-color) !important;
 }
 
 .card {
@@ -49,17 +54,17 @@ div.react-select__menu, div.dropdown-menu {
 }
 
 .text-input, .text-input:focus, .text-input[readonly], .text-input:disabled {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 #scrubber-forward {
-    background-color: transparent;
-    border: 1px solid #555;
+	background-color: transparent;
+	border: 1px solid #555;
 }
 
 .scrubber-button {
-    background-color: transparent;
-    border: 1px solid #555;
+	background-color: transparent;
+	border: 1px solid #555;
 }
 
 .bg-secondary {
@@ -85,11 +90,11 @@ div.react-select__menu, div.dropdown-menu {
 }
 
 .pagination .btn:last-child {
-    border-right: 1px solid var(--tag-color);
+	border-right: 1px solid var(--tag-color);
 }
 
 .pagination .btn:first-child {
-    border-left: 1px solid var(--tag-color);
+	border-left: 1px solid var(--tag-color);
 }
 
 a {
@@ -107,17 +112,17 @@ minimal.w-100.active.btn.btn-primary {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #773cff;
-    border-color: #773cff;
-    font-weight: bold;
+	color: #fff;
+	background-color: #773cff;
+	border-color: #773cff;
+	font-weight: bold;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #773cff;
-    border-color: #773cff;
-    font-weight: bold;
+	color: #fff;
+	background-color: #773cff;
+	border-color: #773cff;
+	font-weight: bold;
 }
 
 .nav-tabs .nav-link.active {
@@ -130,12 +135,12 @@ minimal.w-100.active.btn.btn-primary {
 }
 
 .nav-tabs .nav-link {
-    color: hsla(0,0%,100%,.65);
+	color: hsla(0, 0%, 100%, .65);
 }
 
 .tag-item {
-    background-color: var(--tag-color);
-    color: #fff;
+	background-color: var(--tag-color);
+	color: #fff;
 }
 
 .input-control,
@@ -150,13 +155,13 @@ minimal.w-100.active.btn.btn-primary {
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.show>.btn-primary.dropdown-toggle {
+.show > .btn-primary.dropdown-toggle {
 	color: #fff;
 	border-color: #eee;
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
 	background-color: var(--nav-color);
 }
 
@@ -164,13 +169,13 @@ minimal.w-100.active.btn.btn-primary {
 .btn-primary:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
+.show > .btn-primary.dropdown-toggle:focus {
 	box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.show>.btn-primary.dropdown-toggle {
+.show > .btn-primary.dropdown-toggle {
 	color: #fff;
 	background-color: #2f3335;
 	border-color: #eee;
@@ -233,236 +238,289 @@ option {
 	background-color: var(--nav-color);
 }
 .folder-list .btn-link {
-    color: #2c2e30;
+	color: #2c2e30;
 }
 
 #performer-scraper-popover {
-  z-index: 10;
+	z-index: 10;
 }
 
 .filter-container, .operation-container {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 .search-item {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 .selected-result {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 .selected-result:hover {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 .performer-select-active .react-select__control, .studio-select-active .react-select__control {
-    background-color: hsla(0, 0%, 39.2%, .4);
+	background-color: hsla(0, 0%, 39.2%, .4);
 }
 
 #scene-edit-details .edit-buttons-container {
-    margin: 0px;
-    background: var(--body-color);
+	margin: 0px;
+	background: var(--body-color);
 }
 
 #tasks-panel .tasks-panel-queue {
-    background: var(--body-color);
+	background: var(--body-color);
 }
 
 .job-table.card {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 .modal-header, .modal-body, .modal-footer {
-    background-color: #2d3744;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-position: center; */
+	background-color: #2d3744;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/* background-position: center; */
 }
 
 .folder-list .btn-link {
-    color: #fff;
+	color: #fff;
 }
 
 .modal-header, .modal-body, .modal-footer {
-    background-color: #30404d;
-    color: #f5f8fa;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+	background-color: #30404d;
+	color: #f5f8fa;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 @media (max-width: 575.98px) and (orientation: portrait) {
-    /*body { padding: 1rem 1rem 5rem; }*/
-    .studio-card { width: 100%; height: 294px;}
-    .movie-card { width: 45%; }
-    /*.performer-card {width: 220px; }*/
-    /*.card-popovers { display: none; }*/
-    .performer-card-image { height: 19rem; }
-    .performer-card { width: 14rem; height: 27.5rem; }
-    .scene-performers .performer-card-image { height: 19rem; }
-    .scene-performers .performer-card { width: 14rem; height: 27.5rem; }
-    .movie-card .TruncatedText { display: none; }
-    .nav-tabs .nav-link.active:hover { outline: 0; border-bottom: 2px solid}
-    #performer-details-tab-edit{ display: none; }
-    #performer-details-tab-operations{ display: none; }
-    a[data-rb-event-key=scene-edit-panel] { display: none; }
-    a[data-rb-event-key=scene-video-filter-panel] { display: none; }
-    .ml-auto.btn-group { display: none; }
-    .stats-element { flex-grow: 1; margin: auto 0rem; }
-    .stats { margin-left: 0px; }
-    .top-nav { bottom: 0; top: auto; }
-    div[data-rb-event-key="/images"] { display: none; }
-    div[data-rb-event-key="/scenes/markers"] { display: none; }
-    .row.justify-content-center.scene-performers { max-height: 450px; display: flex; flex-direction: column; overflow: auto; border-top: solid 2px #2d3035; border-bottom: solid 2px #2d3035; padding-top: .5rem; padding-bottom: .5rem; }
-    .scene-tabs { max-height: 100%; }
+	/*body { padding: 1rem 1rem 5rem; }*/
+	.studio-card {
+		width: 100%;
+		height: 294px;
+	}
+	.movie-card {
+		width: 45%;
+	}
+	/*.performer-card {width: 220px; }*/
+	/*.card-popovers { display: none; }*/
+	.performer-card-image {
+		height: 19rem;
+	}
+	.performer-card {
+		width: 14rem;
+		height: 27.5rem;
+	}
+	.scene-performers .performer-card-image {
+		height: 19rem;
+	}
+	.scene-performers .performer-card {
+		width: 14rem;
+		height: 27.5rem;
+	}
+	.movie-card .TruncatedText {
+		display: none;
+	}
+	.nav-tabs .nav-link.active:hover {
+		outline: 0;
+		border-bottom: 2px solid
+	}
+	#performer-details-tab-edit {
+		display: none;
+	}
+	#performer-details-tab-operations {
+		display: none;
+	}
+	a[data-rb-event-key=scene-edit-panel] {
+		display: none;
+	}
+	a[data-rb-event-key=scene-video-filter-panel] {
+		display: none;
+	}
+	.ml-auto.btn-group {
+		display: none;
+	}
+	.stats-element {
+		flex-grow: 1;
+		margin: auto 0rem;
+	}
+	.stats {
+		margin-left: 0px;
+	}
+	.top-nav {
+		bottom: 0;
+		top: auto;
+	}
+	div[data-rb-event-key="/images"] {
+		display: none;
+	}
+	div[data-rb-event-key="/scenes/markers"] {
+		display: none;
+	}
+	.row.justify-content-center.scene-performers {
+		max-height: 450px;
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
+		border-top: solid 2px #2d3035;
+		border-bottom: solid 2px #2d3035;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+	}
+	.scene-tabs {
+		max-height: 100%;
+	}
 }
 
 dd {
-    word-break: break-word;
+	word-break: break-word;
 }
 
 .btn-secondary {
-    color: hsla(0,0%,100%,.65);
+	color: hsla(0, 0%, 100%, .65);
 }
 
 .btn-secondary:hover {
-    color: white;
-    z-index: 0;
-    border-color: var(--nav-color);
-    background-color: rgba(0, 0, 0, .15);
+	color: white;
+	z-index: 0;
+	border-color: var(--nav-color);
+	background-color: rgba(0, 0, 0, .15);
 }
 
 
-.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show>.btn-secondary.dropdown-toggle {
-    background-color: rgba(0, 0, 0, .35);
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+	background-color: rgba(0, 0, 0, .35);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-    background-color: rgba(0, 0, 0, .35);
+	background-color: rgba(0, 0, 0, .35);
 }
 
 .scrubber-wrapper {
-    background-color: rgba(0, 0, 0, .3);
-    border-style: ridge;
-    border-color: #555555;
+	background-color: rgba(0, 0, 0, .3);
+	border-style: ridge;
+	border-color: #555555;
 }
 
 
 a.minimal:hover:not(:disabled), button.minimal:hover:not(:disabled) {
-    background: none;
-    color: white;
+	background: none;
+	color: white;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: var(--plex-yelow);
-    border-bottom: solid;
-    background: none;
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	color: var(--plex-yelow);
+	border-bottom: solid;
+	background: none;
 }
 
 a.minimal, button.minimal {
-    color: hsla(0,0%,100%,.65);
+	color: hsla(0, 0%, 100%, .65);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background: none;
-    border-left: solid;
-    color: var(--plex-yelow);
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background: none;
+	border-left: solid;
+	color: var(--plex-yelow);
 }
 
 .nav-link {
-    color: hsla(0,0%,100%,.65);
+	color: hsla(0, 0%, 100%, .65);
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: white;
-    background-color: hsla(0,0%,100%,.08);
+	color: white;
+	background-color: hsla(0, 0%, 100%, .08);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    background-color: transparent;
+	background-color: transparent;
 }
 
-.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show>.btn-secondary.dropdown-toggle {
-    background: none;
-    color: var(--plex-yelow);
-    border-bottom: solid;
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+	background: none;
+	color: var(--plex-yelow);
+	border-bottom: solid;
 }
 
 .nav-tabs .nav-link.active {
-    color: var(--plex-yelow);
-    background: none;
+	color: var(--plex-yelow);
+	background: none;
 }
 
 .nav-tabs .nav-link:hover {
-    border-bottom: none;
+	border-bottom: none;
 }
 
-.custom-control-input:checked~.custom-control-label:before {
-    color: #fff;
-    border-color: var(--plex-yelow);
-    background-color: var(--plex-yelow);
+.custom-control-input:checked ~ .custom-control-label:before {
+	color: #fff;
+	border-color: var(--plex-yelow);
+	background-color: var(--plex-yelow);
 }
 
-.custom-switch .custom-control-input:disabled:checked~.custom-control-label:before {
-    background-color: var(--plex-yelow);
+.custom-switch .custom-control-input:disabled:checked ~ .custom-control-label:before {
+	background-color: var(--plex-yelow);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: #773cff;
-    border-color: #773cff;
-    font-weight: bold;
+	color: #fff;
+	background-color: #773cff;
+	border-color: #773cff;
+	font-weight: bold;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    background-color: #773cff;
-    border-color: #773cff;
-    font-weight: bold;
+	background-color: #773cff;
+	border-color: #773cff;
+	font-weight: bold;
 }
 
 .btn-danger {
-    color: hsla(0,0%,100%,.75);
-    background-color: #b32;
-    border-color: #b32;
-    font-weight: bold;
+	color: hsla(0, 0%, 100%, .75);
+	background-color: #b32;
+	border-color: #b32;
+	font-weight: bold;
 }
 
 .btn-danger:hover {
-    color: white;
-    background-color: #b32;
-    border-color: #b32;
+	color: white;
+	background-color: #b32;
+	border-color: #b32;
 }
 
 .brand-link {
-    background-color: var(--nav-color)!important;
+	background-color: var(--nav-color) !important;
 }
 
 .hover-popover-content {
-    max-width: 32rem;
-    text-align: center;
-    background: var(--nav-color);
+	max-width: 32rem;
+	text-align: center;
+	background: var(--nav-color);
 }
 
 .progress-bar {
-    background-color: var(--plex-yelow);
+	background-color: var(--plex-yelow);
 }
 
 .modal-header, .modal-body, .modal-footer {
-    background-color: var(--body-color);
+	background-color: var(--body-color);
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
-    background-color: var(--card-color);
-    border-color: var(--card-color);
-    border-left: none!important;
-    border-right: none!important;
+	background-color: var(--card-color);
+	border-color: var(--card-color);
+	border-left: none !important;
+	border-right: none !important;
 }
 
 #queue-viewer .current {
-    background-color: var(--card-color);
+	background-color: var(--card-color);
 }
 
 .tab-content .card-popovers .btn {
@@ -476,5 +534,5 @@ a.minimal, button.minimal {
 }*/
 
 .react-select__menu-portal {
-    z-index: 2;
+	z-index: 2;
 }
