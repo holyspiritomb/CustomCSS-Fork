@@ -1,20 +1,31 @@
 /* ==UserStyle==
-@name           IMDbetter
-@namespace      https://greasyfork.org/users/636724-cml99
-@version        1.2.2
-@description    Minor tweaks for IMDb, like dark theme, sticky navbar, dark search form, thin scrollbar and dark scrollbar for dark elements.
-@description:pl Drobne zmiany dla IMDb, takie jak ciemny motyw, przypięty pasek nawigacji, ciemna szukajka, wąskie i ciemne suwaki.
-@author         CML99
-@license        CC-BY-NC-SA-4.0
-@preprocessor   stylus
-@homepageURL    https://greasyfork.org/scripts/405936-imdbetter
-@supportURL     https://greasyfork.org/scripts/405936-imdbetter/feedback
-@var            checkbox cmlFixNavbar "↸ Sticky Navigation Bar" 1
-@var            checkbox cmlThinBar "↕ Thin Scrollbar" 1
-@var            checkbox cmlDarkBar "↕ Dark Scrollbar for Dark Sections" 1
-@var            checkbox cmlDarkSearch "⌕ Dark Search Form" 1
-@var            checkbox cmlDarkTheme "◑ Dark Theme" 1
+@name			IMDbetter
+@namespace		https://greasyfork.org/users/636724-cml99
+@namespace2		https://github.com/moosedookie
+@version		1.2.2.1
+@description	Minor tweaks for IMDb, like dark theme, sticky navbar, dark search form, thin scrollbar and dark scrollbar for dark elements.
+@author			CML99, modded by moosedookie
+@license		CC-BY-NC-SA-4.0
+@preprocessor	stylus
+@homepageURL	https://greasyfork.org/scripts/405936-imdbetter
+@supportURL		https://greasyfork.org/scripts/405936-imdbetter/feedback
+@updateURL		https://moosedookie.github.io/CustomCSS/IMDB/imdb.user.css
+@var			checkbox cmlFixNavbar "↸ Sticky Navigation Bar" 1
+@var			checkbox cmlThinBar "↕ Thin Scrollbar" 1
+@var			checkbox cmlDarkBar "↕ Dark Scrollbar for Dark Sections" 1
+@var			checkbox cmlDarkSearch "⌕ Dark Search Form" 1
+@var			checkbox cmlDarkTheme "◑ Dark Theme" 1
 ==/UserStyle== */
+
+/*       __  ___                          */
+/*      /  |/  /___  ____  ________       */
+/*     / /|_/ / __ \/ __ \/ ___/ _ \      */
+/*    / /  / / /_/ / /_/ (__  )  __/      */
+/*   /_/  /_/\____/\____/____/\___/  _    */
+/*           / __ \____  ____  / /__(_)__ */
+/*          / / / / __ \/ __ \/ //_/ / _ \*/
+/*         / /_/ / /_/ / /_/ / ,< / /  __/*/
+/*        /_____/\____/\____/_/|_/_/\___/ */
 
 @-moz-document domain("imdb.com") {
 	/* --- Sticky Navigation --- */
@@ -1632,7 +1643,7 @@
 		.YgLMu.base {
 			background: #111 !important;
 		}
-		.hdyUVd .title-cast-item__char {
+		.hdyUVd .title-cast-item__char, .dbUarY {
 			color: #ccc;
 		}
 		.ewdPHp {
