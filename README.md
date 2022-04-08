@@ -60,6 +60,10 @@ This repo has various dark themes for multiple websites. They are built using [U
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/unRAID/unraid.user.css)
 
+**Dark IMDB Theme**
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/IMDB/imdb.user.css)
+
 **Dark W3Schools Theme**
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/W3Schools/w3schools.user.css)
