@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Dark Stylus UI
-@version      1.0.3
+@version      1.0.4
 @description  Change Stylus UI to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -259,7 +259,7 @@ regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/install-usercss.html
 		fill: #cc6060 !important;
 	}
 	input[type="checkbox"]:not(.slider) {
-		background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+		background: linear-gradient(to bottom, #e613df 0%, #0d0f0b 40%, #7722ee 100%);
 		box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 	}
 	#help-popup {
@@ -354,7 +354,7 @@ regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/popup.html.*") {
 		background-color: rgba(45, 30, 63, .2);
 	}
 	input[type="checkbox"]:not(.slider) {
-		background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+		background: linear-gradient(to bottom, #e613df 0%, #0d0f0b 40%, #7722ee 100%);
 		box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 	}
 	.style-name {
@@ -479,7 +479,7 @@ regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/manage.html.*") {
 		background-color: #6f69b9 !important;
 	}
 	input[type="checkbox"]:not(.slider) {
-		background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+		background: linear-gradient(to bottom, #e613df 0%, #0d0f0b 40%, #7722ee 100%);
 		box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 	}
 	label,
