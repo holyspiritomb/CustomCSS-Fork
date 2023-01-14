@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.4.3
+@version      1.4.4
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -377,6 +377,11 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
 	.sweet-alert h2,
 	.sweet-alert p {
 		color: var(--stopped-color);
+	}
+	.sweet-alert.nchan h2 {
+		background: var(--main-color-dark);
+		border-style: solid;
+		border-color: var(--unraid-orange2);
 	}
 	.swal-modal {
 		background-color: var(--main-color-dark);
